@@ -1,0 +1,20 @@
+form {
+    background-color:#213b50;
+    color: white;
+}
+
+label {
+    display: block;
+}
+
+label[for*="male"] {
+    display: inline;
+}
+
+input {
+    background-color: #2b4a64;
+}
+
+input:focus {
+    background-color: red;
+}
